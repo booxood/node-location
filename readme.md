@@ -4,7 +4,7 @@
 
 提供全球的国家、省/直辖市/州、市、县信息。
 
-** 数据来自 QQ 的安装包**
+** 数据来自 QQ 的安装包 **
 
 ## 安装
 
@@ -15,13 +15,11 @@ npm install node-location
 ## 使用
 
 ```javascript
-const {
-  location,
-  country,
-  state,
-  city,
-  region
-} = require('node-location')
+const location = require('node-location').location
+const country = require('node-location').country
+const state = require('node-location').state
+const city = require('node-location').city
+const region = require('node-location').region
 ```
 
 ## 说明
