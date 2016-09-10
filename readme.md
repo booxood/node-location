@@ -1,10 +1,11 @@
 # node-location
 
 [![Build Status](https://travis-ci.org/booxood/node-location.svg?branch=master)](https://travis-ci.org/booxood/node-location)
+[![Coverage Status](https://coveralls.io/repos/booxood/node-location/badge.svg)](https://coveralls.io/r/booxood/node-location)
 
 提供全球的国家、省/直辖市/州、市、县信息。
 
-** 数据来自 QQ 的安装包 **
+**数据来自 QQ 的安装包**
 
 ## 安装
 
