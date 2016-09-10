@@ -1,0 +1,36 @@
+{
+  "name": "node-location",
+  "version": "1.0.0",
+  "description": "The location of the world",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/build",
+    "test": "make test-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booxood/node-location.git"
+  },
+  "keywords": [
+    "location",
+    "country",
+    "state",
+    "city",
+    "region"
+  ],
+  "author": "Liucw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/booxood/node-location/issues"
+  },
+  "homepage": "https://github.com/booxood/node-location#readme",
+  "devDependencies": {
+    "istanbul": "0.4.5",
+    "mocha": "3.0.2",
+    "should": "11.1.0"
+  },
+  "dependencies": {
+    "lodash": "4.15.0",
+    "xml2js": "0.4.17"
+  }
+}

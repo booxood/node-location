@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "4"
+  - "6"
+
+script:
+  - make test-travis
+
+after_script:
+  - npm install coveralls@2
+  - cat ./coverage/lcov.info | coveralls
+
+deploy:
+  provider: npm
+  email: liucw.mail@gmail.com
+  api_key: ${NPM_API_KEY}
